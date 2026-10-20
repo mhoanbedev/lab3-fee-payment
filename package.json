@@ -1,0 +1,23 @@
+{
+  "name": "lab3-fee-payment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab 3 - Ket noi va duy tri ket noi giua cac service: Fee Service goi cong ngan hang",
+  "main": "src/fee/server.js",
+  "scripts": {
+    "bank": "node src/bank/server.js",
+    "fee": "node src/fee/server.js",
+    "fee:naive": "node src/fee/server.js --naive",
+    "s1": "node scripts/scenario1.js",
+    "s2": "node scripts/scenario2.js",
+    "s3": "node scripts/scenario3.js",
+    "s4": "node scripts/scenario4.js",
+    "test:all": "node scripts/run-all.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
